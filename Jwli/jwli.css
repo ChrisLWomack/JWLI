@@ -1,0 +1,315 @@
+
+*{
+  box-sizing: border-box;
+}
+section{
+	float: left;
+}
+header{
+
+  width: 100%;
+  clear: both;
+
+}
+header a{
+	text-decoration: none;
+	color: black;
+}
+header ul{
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+}
+header nav{
+
+  width: 100%;
+}
+header li{
+	height: 30px;
+	width: 7%;
+	margin: 1.5%;
+	display: inline-block;
+
+}
+header button{
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+.hamburger{
+	display: none;
+}
+/* header css --------------------------------------*/
+
+.jwli{
+	width: 100%;
+	display: inline-block;
+	background-color: lightgray;
+}
+.jwli section{
+	width: 59%;
+	display: inline-block;
+}
+
+.jwli img{
+	width: 40%;
+	padding-left: 10%;
+
+}
+.jwli h3, .jwli p, .jwli form{
+	width: 100%;
+	margin: 1%;
+
+}
+img.cat{
+	width: 40%;
+	display: inline-block;
+}
+/* JWLI ----------------------------------*/
+.empowersJapanese{
+	width: 100%;
+
+	text-align: center;
+	padding: 4%;
+}
+.empowersJapanese p{
+	width: 30%;
+	display: inline-block;
+	padding: 1%;
+	text-align: left;
+}
+p.fullline{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+/* ourHistory----------------------------------------------------------- */
+
+.ourHistory{
+
+	width: 100%;
+
+	background: lightgray;
+	padding-bottom: 20px;
+}
+.ourHistory h3{
+	margin-left: 10%;
+	font-weight: bold;
+	display: block;
+	padding-top: 15px;
+
+}
+.ourHistory p{
+	margin-left: 10%;
+	padding-top: 10px;
+}
+.historyWords{
+	width: 60%;
+}
+.historyIMGS{
+	width: 40%;
+}
+.historyIMGS img{
+	height: 180px;
+	width: 50%;
+	margin: 20px 0 0 25%;
+
+}
+.historyIMGS p{
+	margin: 0 0 0 40%;
+
+}
+.loner{
+	text-align: center;
+	font-weight: bold;
+	margin: 0 0 30px 0;
+}
+.whoWeAre{
+
+	width: 100%;
+	border: 2px solid lightgray;
+	padding-bottom: 20px;
+}
+.whoWeAre img{
+	height: 200px;
+	width: 20%;
+	float: left;
+	margin-right: 5%;
+	margin-left: 3%;
+	margin-top: 18px;
+
+}
+.whoWeAre h4{
+	font-weight: bold;
+	padding-top: 15px;
+}
+.whoWeAre h4, .whoWeAre p{
+	width: 60%;
+	margin-left: 20%;
+}
+
+/* Fish Family and Simons */
+.fishFamily, .simmons{
+	width: 50%;
+	padding-bottom: 20px;
+
+}
+
+.fishFamily h3{
+padding: 25px 0 15px 0;
+}
+.simmons img{
+	width: 30%;
+	height: 50px;
+}
+
+
+.signUp{
+
+	width: 100%;
+
+	background: lightgray;
+}
+.leftLow{
+	width: 40%;
+	height: 49px;
+
+	float: left;
+}
+.leftLow span{
+	margin-left: 10%;
+	display: block;
+	padding-top: 10px;
+}
+.rightLow{
+	width: 58%;
+	height: 49px;
+
+	float: left;
+}
+.rightLow form{
+	margin-left: 10%;
+	padding-top: 10px;
+}
+.rightLow input{
+	width: 50%;
+}
+.rightLow button{
+	width: 20%;
+}
+footer{
+
+	width: 100%;
+
+	clear: both;
+	background-color: gray;
+	color: white;
+}
+.leftFoot, .rightFoot{
+	width: 50%;
+	height: 50px;
+
+	float: left;
+	background-color: gray;
+}
+.leftFoot p{
+	margin: 10px 0 0 15%;
+}
+.rightFoot ul{
+	margin-left: 30%;
+}
+.rightFoot li{
+	float: left;
+	margin-top: 10px;
+	margin-left: 4%;
+}
+.bottomFoot{
+
+	width: 100%;
+
+	float: left;
+	background: gray;
+}
+.bottomFoot ul{
+	float: left;
+	margin-left: 8%;
+	padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px){
+
+section{
+	width: 100%;
+}
+.jwli section{
+  margin: 10px 0 0 0%;
+  padding-left: 5%;
+}
+.empowersJapanese p{
+	width: 100%;
+	display: inline-block;
+	padding: 1%;
+	text-align: left;
+  margin-top: 10px
+}
+
+.ourHistory{
+  display: none;
+}
+	.fishFamily, .simmons{
+		width: 100%;
+	}
+  .fishFamily h3{
+    margin-left: 10%;
+  }
+  .fishFamily p, .simmons p{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .bottomFoot{
+  display: none;
+  }
+  .rightLow button{
+    width: 30%;
+  }
+  .leftFoot, .rightFoot{
+    padding-bottom: 100px;
+  }
+
+	.hamburger{
+		display: block;
+		position: absolute;
+		top: 5px;
+		right: 3%
+
+	}
+	header li{
+		display: none;
+	}
+	img{
+		display: none;
+	}
+	
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+	section{
+		width: 100%;
+	}
+	.fishFamily, .simmons{
+		width: 100%;
+	}
+	header li{
+		width: 9%;
+	}
+
+
+
+}
+
+@media (min-width: 1025px) and (max-width: 2000px){
+
+}
